@@ -1,0 +1,59 @@
+/* Style for form labels */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Style for input fields */
+input[type="file"],
+input[type="text"],
+input[type="email"] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style for language tabs */
+.tab-group {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tab {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px 3px 0 0;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.tab.active {
+  background-color: #fff;
+  border-bottom-color: #fff;
+}
+
+.tab:hover {
+  background-color: #e6e6e6;
+}
+
+/* Style for language tab panes */
+.tab-pane {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+}
+
+.tab-pane.show {
+  display: block;
+}
